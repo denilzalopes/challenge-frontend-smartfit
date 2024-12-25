@@ -1,55 +1,32 @@
-# Desafio Frontend - Smart Fit
+# Défi Front-end - Smart Fit
 
-![Smart Fit](./src/assets/images/svg/logo.svg)
+Ce dépôt contient la solution au défi Front-end de Smart Fit. L'application a été développée à l'aide du framework Angular.
 
-Este repositório contém a solução para o desafio de [Front-end da Smart Fit](https://github.com/bioritmo/front-end-code-challenge-smartsite/tree/master) desenvolvido durante o vídeo em meu canal. Eu utilizei o framework Angular para desenvolver a aplicação, e você pode assistir o vídeo onde resolvi o desafio em meu canal [aqui](https://www.youtube.com/watch?v=ozZXMkp8MnQ).
+## 📖 À propos du défi  
+Smart Fit, opérant dans le secteur du fitness, a dû s'adapter à de nombreux changements pendant la pandémie. Il était nécessaire de développer une page permettant de rechercher des unités ouvertes ou fermées pour consultation et réservation.
 
-## 📖 Sobre o desafio
+Dans ce défi, les fonctionnalités suivantes ont été mises en œuvre conformément aux règles métier définies :
 
-A Smart Fit, atuando no segmento de fitness, passou por várias mudanças durante a pandemia. Foi necessário desenvolver uma página para buscar unidades abertas ou fechadas para consulta e reserva. 
+### Fonctionnalités  
+- ✅ Chargement des unités à partir du fichier JSON `locations.json` à l'aide de la méthode GET.  
+- ✅ Recherche de toutes les unités.  
+- ✅ Recherche d'unités avec filtres.  
+- ✅ Affichage du nombre de résultats trouvés.  
+- ✅ Liste des unités trouvées après la recherche.  
 
-Neste desafio, foi implementado as seguintes funcionalidades de acordo com as regras de negócio definidas:
+### Règles métier  
+- Filtrage des unités ouvertes ou fermées.  
+- Filtrage des unités par période de fonctionnement.  
+- Affichage du message **"Aucune unité trouvée"** lorsqu'aucun résultat n'est disponible.  
+- Validation et affichage des icônes correctes selon le statut de l'unité.  
 
-### Funcionalidades
-[x] Carrega unidades através do arquivo JSON [locations.json](https://test-frontend-developer.s3.amazonaws.com/data/locations.json) utilizando o método `GET`.
-[x] Busca por todas as unidades.
-[x] Busca por unidades com filtros.
-[x] Previsão do número de resultados encontrados.
-[x] Listagem das unidades encontradas após a busca.
+## 🎨 Design  
+Le design de l'application a été basé sur les matériaux fournis, incluant :  
+- des maquettes pour appareils mobiles et desktop,  
+- les couleurs,  
+- les images,  
+- et les polices.
 
-### Regras de negócio
-- Filtra unidades abertas ou fechadas.
-- Filtra unidades por período de funcionamento.
-- Exibe a mensagem "Nenhuma unidade encontrada" quando não há resultados.
-- Valida e exibe os ícones corretos de acordo com o status da unidade.
+La fidélité au design proposé a été respectée, et l'application est entièrement **responsive**, s'adaptant aux appareils mobiles, tablettes et desktops.
 
-## 🎨 Layout
-
-O layout da aplicação foi baseado nos materiais disponibilizados, incluindo designs para dispositivos móveis e desktop, cores, imagens e fontes. A fidelidade ao layout proposto foi mantida, e a aplicação é responsiva para dispositivos móveis, tablets e desktops.
-
-## ⚙️ Como Executar
-
-Para executar a aplicação localmente, siga os passos abaixo:
-
-1. Clone este repositório:
-
-```bash
-  git clone https://github.com/Fernanda-Kipper/smartfit-frontend-challenge.git
-  cd smartfit-frontend-challenge
-
-```
-
-2. Instale as dependências
-
-```bash
-  npm install
-```
-
-3. Inicie a aplicação
-
-```bash
-  npm start
-```
-
-## Licença
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para obter mais detalhes.
+---
